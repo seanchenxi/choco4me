@@ -1,7 +1,6 @@
 (function (window, angular, undefined) {
     'use strict';
 
-
     /* Services */
 
     // Simple value service.

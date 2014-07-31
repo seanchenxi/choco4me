@@ -7,12 +7,13 @@
         'choco4me.services',
         'choco4me.directives',
         'ajoslin.mobile-navigate',
-        'ngTouch'
+        'ngTouch',
+        'ngRoute'
     ];
 
     window.choco4me = angular.module('choco4me', requires)
         .config(function ($compileProvider){
-            $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+            $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
         })
         .config(['$routeProvider', function($routeProvider) {
             $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
