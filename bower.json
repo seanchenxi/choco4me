@@ -1,24 +1,25 @@
 {
-    "name": "choco4me",
-    "version": "1.0.0",
-    "authors": [
-        "Xi CHEN <chenxifr@gmail.com>"
-    ],
-    "main": "www/index.html",
-    "license": "MIT",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "www/js",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "angular": "~1.2.21",
-        "angular-route" : "~1.2.21",
-        "angular-animate" : "~1.2.21",
-        "angular-resource": "~1.2.21",
-        "angular-touch": "~1.2.21"
-    }
+  "name": "choco4me",
+  "version": "1.0.0",
+  "authors": [
+    "Xi CHEN <chenxifr@gmail.com>"
+  ],
+  "main": "www/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "www/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "angular-route": "~1.2.21",
+    "angular-animate": "~1.2.21",
+    "angular-resource": "~1.2.21",
+    "angular-touch": "~1.2.21",
+    "angular-mobile-nav": "git://github.com/ajoslin/angular-mobile-nav.git"
+  }
 }

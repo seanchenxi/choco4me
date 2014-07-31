@@ -13,7 +13,7 @@ bin/
 gen/
 ant-gen/
 ant-build/
-www/js/angular*/
+www/libs/
 
 # Intellij project files
 *.iml
